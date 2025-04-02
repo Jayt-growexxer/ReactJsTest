@@ -5,7 +5,8 @@ const StepperContainer = () => {
   const steps = [
     { title: "Step 1", message: "This is the description" },
     { title: "Step 2", message: "This is the description" },
-    { title: "Step 3", message: "This is the description" }
+    { title: "Step 3", message: "This is the description" },
+    {itle: "Step 4", message: "This is the description" }
   ];
 
   const [currentStep, setCurrentStep] = useState(0);

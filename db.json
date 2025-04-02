@@ -1,18 +1,6 @@
 {
   "products": [
     {
-      "id": "4_XTU7l2B0dmsmFA58sR_",
-      "title": "Earphone",
-      "category": "Electronics",
-      "price": "100",
-      "rating": "3",
-      "stock": "500",
-      "brand": "KDM",
-      "isAvailable": true,
-      "createdAt": "2025-04-02T09:10:31.290Z",
-      "updatedAt": "2025-04-02T09:10:31.290Z"
-    },
-    {
       "id": "wAEE25hw6rxU7g7h3WwN7",
       "title": "TV",
       "category": "Electronics",
@@ -35,6 +23,39 @@
       "isAvailable": true,
       "updatedAt": "2025-04-02T11:50:15.189Z",
       "id": "jIHyCHH3__BFuwa2GwKcN"
+    },
+    {
+      "id": "WjzeQJ306P9PZROwhC-eH",
+      "title": "tablet",
+      "category": "Electronics",
+      "price": "1",
+      "rating": "1",
+      "stock": "1",
+      "brand": "LG",
+      "createdAt": "2025-04-02T12:53:35.981Z",
+      "updatedAt": "2025-04-02T12:53:35.981Z"
+    },
+    {
+      "id": "OzUiNOVEDRdvYMHIXYIxY",
+      "title": "iphone",
+      "category": "Electronics",
+      "price": "1",
+      "rating": "5",
+      "stock": "0",
+      "brand": "Apple",
+      "createdAt": "2025-04-02T12:54:09.674Z",
+      "updatedAt": "2025-04-02T12:54:09.674Z"
+    },
+    {
+      "id": "Tw7RlBSPyowSc--8oEeOv",
+      "title": "Iphone",
+      "category": "Electronics",
+      "price": "22",
+      "rating": "2",
+      "stock": "2",
+      "brand": "LG",
+      "createdAt": "2025-04-02T12:57:27.441Z",
+      "updatedAt": "2025-04-02T12:57:27.441Z"
     }
   ]
 }
