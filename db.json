@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": "4_XTU7l2B0dmsmFA58sR_",
+      "title": "Earphone",
+      "category": "Electronics",
+      "price": "100",
+      "rating": "3",
+      "stock": "500",
+      "brand": "KDM",
+      "isAvailable": true,
+      "createdAt": "2025-04-02T09:10:31.290Z",
+      "updatedAt": "2025-04-02T09:10:31.290Z"
+    },
+    {
+      "id": "wAEE25hw6rxU7g7h3WwN7",
+      "title": "TV",
+      "category": "Electronics",
+      "price": "1000",
+      "rating": "4",
+      "stock": "11",
+      "brand": "Notebook",
+      "isAvailable": true,
+      "createdAt": "2025-04-02T09:10:56.577Z",
+      "updatedAt": "2025-04-02T09:10:56.577Z"
+    },
+    {
+      "title": "TV",
+      "description": "GOOD",
+      "category": "Stationary",
+      "price": "11",
+      "rating": "3",
+      "stock": "0",
+      "brand": "LG",
+      "isAvailable": true,
+      "updatedAt": "2025-04-02T11:50:15.189Z",
+      "id": "jIHyCHH3__BFuwa2GwKcN"
+    }
+  ]
+}

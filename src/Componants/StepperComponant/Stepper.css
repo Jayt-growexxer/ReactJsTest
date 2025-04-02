@@ -1,0 +1,163 @@
+.stepper-wrapper {
+  width: 100%;
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.stepper-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.stepper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.step-item {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.step-circle {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border: 2px solid #e0e0e0;
+  background-color: white;
+  color: #666;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  user-select: none;
+}
+
+.step-circle:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.step-circle:active {
+  transform: scale(0.95);
+}
+
+.step-circle:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 48, 143, 0.3);
+}
+
+.step-circle.current {
+  background-color: #00308f;
+  border-color: #00308f;
+  color: white;
+}
+
+.step-circle.completed {
+  background-color: #4caf50;
+  border-color: #4caf50;
+  color: white;
+}
+
+.checkmark {
+  font-size: 1.2rem;
+}
+
+.step-name {
+  font-size: 0.875rem;
+  color: #666;
+  text-align: center;
+  font-weight: 500;
+}
+
+.step-line {
+  width: 100px;
+  height: 2px;
+  background-color: #e0e0e0;
+  margin: 0 10px;
+  transition: background-color 0.3s ease;
+}
+
+.step-line.completed {
+  background-color: #4caf50;
+}
+
+.step-content-container {
+  margin: 2rem 0;
+  padding: 2rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+}
+
+.step-content {
+  text-align: center;
+}
+
+.step-content h3 {
+  color: #00308f;
+  margin-bottom: 1rem;
+}
+
+.step-content p {
+  color: #666;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.stepper-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.stepper-button {
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #00308f;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.stepper-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.stepper-button:hover:not(:disabled) {
+  background-color: #002070;
+}
+
+.accept-button {
+  padding: 0.5rem 1.5rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.accept-button:hover {
+  background-color: #45a049;
+}
+
+.accepted-message {
+  color: #4caf50;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
